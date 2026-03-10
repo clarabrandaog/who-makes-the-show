@@ -1,7 +1,7 @@
 // --- Configuration ---------------------------------------------------------
 
 const DATA_URL = "data/workers.json";
-const HIGHLIGHT_INTERVAL_MS = 30_000;
+const HIGHLIGHT_INTERVAL_MS = 18_000;
 const HIGHLIGHT_VISIBLE_MS = 8_000;
 const BUBBLE_SIZES = ["large", "medium", "small"];
 
@@ -97,6 +97,12 @@ function createBubbleElement(worker) {
   bubble.dataset.workerId = worker.id;
   bubble.setAttribute("aria-label", `${worker.name}, ${worker.department}`);
 
+  const inner = document.createElement("div");
+  inner.className = "bubble-inner";
+
+  const floatWrapper = document.createElement("div");
+  floatWrapper.className = "bubble-float";
+
   const img = document.createElement("img");
   img.className = "bubble-photo";
   img.src = worker.photo;
@@ -112,8 +118,10 @@ function createBubbleElement(worker) {
   icon.alt = `${worker.department} icon`;
   icon.loading = "lazy";
   iconRing.appendChild(icon);
-  bubble.appendChild(img);
-  bubble.appendChild(iconRing);
+  floatWrapper.appendChild(img);
+  floatWrapper.appendChild(iconRing);
+  inner.appendChild(floatWrapper);
+  bubble.appendChild(inner);
 
   bubble.addEventListener("click", () => {
     showHighlightForWorker(worker.id, { fromUserClick: true });
