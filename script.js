@@ -229,11 +229,13 @@ function startFactRotation() {
 function openHighlightOverlay() {
   highlightOverlayEl.classList.add("visible");
   highlightOverlayEl.setAttribute("aria-hidden", "false");
+  highlightCardEl.classList.add("visible");
 }
 
 function closeHighlightOverlay() {
   highlightOverlayEl.classList.remove("visible");
   highlightOverlayEl.setAttribute("aria-hidden", "true");
+  highlightCardEl.classList.remove("visible");
 
   if (lastHighlightedId != null) {
     const prevBubble = bubbleElementsById.get(String(lastHighlightedId));

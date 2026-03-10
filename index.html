@@ -37,56 +37,56 @@
           class="highlight-backdrop"
           data-dismiss-target
         ></div>
+      </section>
 
-        <article
-          id="highlight-card"
-          class="highlight-card"
-          role="dialog"
-          aria-modal="true"
-          aria-labelledby="highlight-name"
+      <article
+        id="highlight-card"
+        class="highlight-card"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="highlight-name"
+      >
+        <button
+          id="highlight-close"
+          class="highlight-close"
+          type="button"
+          aria-label="Close details"
         >
-          <button
-            id="highlight-close"
-            class="highlight-close"
-            type="button"
-            aria-label="Close details"
-          >
-            ×
-          </button>
+          ×
+        </button>
 
-          <div class="highlight-media">
-            <div class="highlight-photo-wrapper">
+        <div class="highlight-media">
+          <div class="highlight-photo-wrapper">
+            <img
+              id="highlight-photo"
+              class="highlight-photo"
+              src=""
+              alt=""
+              loading="lazy"
+            />
+            <div class="highlight-icon-ring">
               <img
-                id="highlight-photo"
-                class="highlight-photo"
+                id="highlight-icon"
+                class="highlight-icon"
                 src=""
                 alt=""
                 loading="lazy"
               />
-              <div class="highlight-icon-ring">
-                <img
-                  id="highlight-icon"
-                  class="highlight-icon"
-                  src=""
-                  alt=""
-                  loading="lazy"
-                />
-              </div>
             </div>
           </div>
+        </div>
 
-          <div class="highlight-content">
-            <h2 id="highlight-name" class="highlight-name"></h2>
-            <p id="highlight-department" class="highlight-department"></p>
-            <p id="highlight-bio" class="highlight-bio"></p>
-            <p id="highlight-instagram" class="highlight-instagram"></p>
-            <p id="highlight-worked-on" class="highlight-worked-on">Worked on</p>
-            <p id="highlight-worked-musicals" class="highlight-worked-musicals">
-              <span id="highlight-shows" class="highlight-shows"></span>
-            </p>
-          </div>
-        </article>
-      </section>
+        <div class="highlight-content">
+          <h2 id="highlight-name" class="highlight-name"></h2>
+          <p id="highlight-department" class="highlight-department"></p>
+          <p id="highlight-bio" class="highlight-bio"></p>
+          <p id="highlight-instagram" class="highlight-instagram"></p>
+          <p id="highlight-worked-on" class="highlight-worked-on">Worked on</p>
+          <p id="highlight-worked-musicals" class="highlight-worked-musicals">
+            <span id="highlight-shows" class="highlight-shows"></span>
+          </p>
+        </div>
+      </article>
     </main>
 
     <noscript>

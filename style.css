@@ -1,3 +1,7 @@
+:root {
+  --highlight-color: rgba(31, 41, 55, 1);
+}
+
 *,
 *::before,
 *::after {
@@ -12,8 +16,8 @@ body {
   width: 100%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
     "Helvetica Neue", Arial, sans-serif;
-  background: #050509;
-  color: #f5f5f5;
+  background: #ffffff;
+  color: #1f2937;
 }
 
 body {
@@ -25,14 +29,23 @@ body {
   position: fixed;
   inset: -20%;
   z-index: 0;
-  background: radial-gradient(circle at 0% 0%, #38bdf8 0, transparent 55%),
-    radial-gradient(circle at 100% 10%, #6366f1 0, transparent 55%),
-    radial-gradient(circle at 0% 100%, #22c55e 0, transparent 55%),
-    radial-gradient(circle at 80% 100%, #0ea5e9 0, transparent 55%),
-    radial-gradient(circle at 50% 50%, #020617 0, #020617 55%, #000000 100%);
+  background: radial-gradient(
+      ellipse 90% 80% at 15% 85%,
+      #706eff 0%,
+      rgba(112, 110, 255, 0.75) 25%,
+      rgba(112, 110, 255, 0.35) 50%,
+      rgba(255, 255, 255, 0) 75%
+    ),
+    radial-gradient(
+      ellipse 85% 75% at 88% 18%,
+      #f4a4e0 0%,
+      rgba(244, 164, 224, 0.8) 28%,
+      rgba(244, 164, 224, 0.4) 52%,
+      rgba(255, 255, 255, 0) 78%
+    );
   background-size: 200% 200%;
   animation: gradientShift 32s ease-in-out infinite alternate;
-  filter: saturate(1.1);
+  filter: saturate(1.15);
 }
 
 @keyframes gradientShift {
@@ -144,6 +157,7 @@ body {
   position: absolute;
   inset: 0;
   pointer-events: none;
+  z-index: 3;
 }
 
 .bubble {
@@ -234,7 +248,11 @@ body {
 }
 
 .bubble.highlighted .bubble-float {
-  box-shadow: 0 22px 60px rgba(0, 0, 0, 0.85);
+  border-width: 5px;
+  border-color: var(--highlight-color);
+  box-shadow: 0 22px 60px rgba(0, 0, 0, 0.85),
+    0 0 0 5px var(--highlight-color),
+    0 0 24px rgba(31, 41, 55, 0.5);
 }
 
 .bubble:hover .bubble-inner,
@@ -263,7 +281,7 @@ body {
 .highlight-overlay {
   position: fixed;
   inset: 0;
-  z-index: 4;
+  z-index: 2;
   pointer-events: none;
   opacity: 0;
   transition: opacity 260ms ease-out;
@@ -277,25 +295,20 @@ body {
 .highlight-backdrop {
   position: absolute;
   inset: 0;
-  background: radial-gradient(
-    circle at 50% 50%,
-    rgba(15, 23, 42, 0.78),
-    rgba(15, 23, 42, 0.95)
-  );
-  backdrop-filter: blur(10px);
-  opacity: 0;
-  transition: opacity 220ms ease-out;
+  background: transparent;
+  cursor: default;
 }
 
 .highlight-card {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
+  z-index: 4;
   width: min(420px, calc(100% - 48px));
   min-width: 600px;
   max-height: 80vh;
   height: fit-content;
-  background: #1f2937;
+  background: var(--highlight-color);
   color: #f9fafb;
   border-radius: 24px;
   padding: 24px 24px 22px;
@@ -307,16 +320,27 @@ body {
   transform: translate3d(-50%, calc(-50% + 18px), 0) scale(0.9);
   transition: opacity 260ms ease-out,
     transform 320ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  pointer-events: none;
 }
 
-.highlight-overlay.visible .highlight-card {
+.highlight-card.visible {
   opacity: 1;
   transform: translate3d(-50%, -50%, 0) scale(1);
   transition-delay: 40ms;
+  pointer-events: auto;
 }
 
-.highlight-overlay.visible .highlight-backdrop {
-  opacity: 1;
+/* Defined shadow behind the card only; does not cover the bubbles */
+.highlight-card::before {
+  content: "";
+  position: absolute;
+  inset: -24px;
+  border-radius: 32px;
+  background: transparent;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.35),
+    0 12px 32px rgba(0, 0, 0, 0.2);
+  z-index: -1;
+  pointer-events: none;
 }
 
 .highlight-close {
