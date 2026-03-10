@@ -1,0 +1,2011 @@
+[
+  {
+    "id": "worker-001",
+    "name": "Worker 001",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker001",
+    "shows": ["MUSICAL 1", "MUSICAL 2"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-002",
+    "name": "Worker 002",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker002",
+    "shows": ["MUSICAL 1", "MUSICAL 3"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-003",
+    "name": "Worker 003",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker003",
+    "shows": ["MUSICAL 2", "MUSICAL 4"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-004",
+    "name": "Worker 004",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker004",
+    "shows": ["MUSICAL 2", "MUSICAL 5"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-005",
+    "name": "Worker 005",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker005",
+    "shows": ["MUSICAL 3", "MUSICAL 6"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-006",
+    "name": "Worker 006",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker006",
+    "shows": ["MUSICAL 3", "MUSICAL 7"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-007",
+    "name": "Worker 007",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker007",
+    "shows": ["MUSICAL 4", "MUSICAL 8"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-008",
+    "name": "Worker 008",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker008",
+    "shows": ["MUSICAL 4", "MUSICAL 9"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-009",
+    "name": "Worker 009",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker009",
+    "shows": ["MUSICAL 5", "MUSICAL 10"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-010",
+    "name": "Worker 010",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker010",
+    "shows": ["MUSICAL 5", "MUSICAL 11"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-011",
+    "name": "Worker 011",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker011",
+    "shows": ["MUSICAL 6", "MUSICAL 12"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-012",
+    "name": "Worker 012",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker012",
+    "shows": ["MUSICAL 6", "MUSICAL 13"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-013",
+    "name": "Worker 013",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker013",
+    "shows": ["MUSICAL 7", "MUSICAL 14"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-014",
+    "name": "Worker 014",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker014",
+    "shows": ["MUSICAL 7", "MUSICAL 15"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-015",
+    "name": "Worker 015",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker015",
+    "shows": ["MUSICAL 8", "MUSICAL 16"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-016",
+    "name": "Worker 016",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker016",
+    "shows": ["MUSICAL 8", "MUSICAL 17"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-017",
+    "name": "Worker 017",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker017",
+    "shows": ["MUSICAL 9", "MUSICAL 18"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-018",
+    "name": "Worker 018",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker018",
+    "shows": ["MUSICAL 9", "MUSICAL 19"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-019",
+    "name": "Worker 019",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker019",
+    "shows": ["MUSICAL 10", "MUSICAL 20"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-020",
+    "name": "Worker 020",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker020",
+    "shows": ["MUSICAL 10", "MUSICAL 21"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  }
+  ,
+  {
+    "id": "worker-021",
+    "name": "Worker 021",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker021",
+    "shows": ["MUSICAL 11", "MUSICAL 22"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-022",
+    "name": "Worker 022",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker022",
+    "shows": ["MUSICAL 11", "MUSICAL 23"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-023",
+    "name": "Worker 023",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker023",
+    "shows": ["MUSICAL 12", "MUSICAL 24"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-024",
+    "name": "Worker 024",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker024",
+    "shows": ["MUSICAL 12", "MUSICAL 25"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-025",
+    "name": "Worker 025",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker025",
+    "shows": ["MUSICAL 13", "MUSICAL 26"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-026",
+    "name": "Worker 026",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker026",
+    "shows": ["MUSICAL 13", "MUSICAL 27"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-027",
+    "name": "Worker 027",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker027",
+    "shows": ["MUSICAL 14", "MUSICAL 28"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-028",
+    "name": "Worker 028",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker028",
+    "shows": ["MUSICAL 14", "MUSICAL 29"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-029",
+    "name": "Worker 029",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker029",
+    "shows": ["MUSICAL 15", "MUSICAL 30"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-030",
+    "name": "Worker 030",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker030",
+    "shows": ["MUSICAL 15", "MUSICAL 31"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  }
+  ,
+  {
+    "id": "worker-031",
+    "name": "Worker 031",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker031",
+    "shows": ["MUSICAL 16", "MUSICAL 32"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-032",
+    "name": "Worker 032",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker032",
+    "shows": ["MUSICAL 16", "MUSICAL 33"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-033",
+    "name": "Worker 033",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker033",
+    "shows": ["MUSICAL 17", "MUSICAL 34"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-034",
+    "name": "Worker 034",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker034",
+    "shows": ["MUSICAL 17", "MUSICAL 35"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-035",
+    "name": "Worker 035",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker035",
+    "shows": ["MUSICAL 18", "MUSICAL 36"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-036",
+    "name": "Worker 036",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker036",
+    "shows": ["MUSICAL 18", "MUSICAL 37"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-037",
+    "name": "Worker 037",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker037",
+    "shows": ["MUSICAL 19", "MUSICAL 38"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-038",
+    "name": "Worker 038",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker038",
+    "shows": ["MUSICAL 19", "MUSICAL 39"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-039",
+    "name": "Worker 039",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker039",
+    "shows": ["MUSICAL 20", "MUSICAL 40"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-040",
+    "name": "Worker 040",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker040",
+    "shows": ["MUSICAL 20", "MUSICAL 41"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  }
+  ,
+  {
+    "id": "worker-041",
+    "name": "Worker 041",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker041",
+    "shows": ["MUSICAL 21", "MUSICAL 42"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-042",
+    "name": "Worker 042",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker042",
+    "shows": ["MUSICAL 21", "MUSICAL 43"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-043",
+    "name": "Worker 043",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker043",
+    "shows": ["MUSICAL 22", "MUSICAL 44"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-044",
+    "name": "Worker 044",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker044",
+    "shows": ["MUSICAL 22", "MUSICAL 45"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-045",
+    "name": "Worker 045",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker045",
+    "shows": ["MUSICAL 23", "MUSICAL 46"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-046",
+    "name": "Worker 046",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker046",
+    "shows": ["MUSICAL 23", "MUSICAL 47"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-047",
+    "name": "Worker 047",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker047",
+    "shows": ["MUSICAL 24", "MUSICAL 48"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-048",
+    "name": "Worker 048",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker048",
+    "shows": ["MUSICAL 24", "MUSICAL 49"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-049",
+    "name": "Worker 049",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker049",
+    "shows": ["MUSICAL 25", "MUSICAL 50"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-050",
+    "name": "Worker 050",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker050",
+    "shows": ["MUSICAL 25", "MUSICAL 51"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  }
+  ,
+  {
+    "id": "worker-051",
+    "name": "Worker 051",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker051",
+    "shows": ["MUSICAL 26", "MUSICAL 52"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-052",
+    "name": "Worker 052",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker052",
+    "shows": ["MUSICAL 26", "MUSICAL 53"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-053",
+    "name": "Worker 053",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker053",
+    "shows": ["MUSICAL 27", "MUSICAL 54"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-054",
+    "name": "Worker 054",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker054",
+    "shows": ["MUSICAL 27", "MUSICAL 55"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-055",
+    "name": "Worker 055",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker055",
+    "shows": ["MUSICAL 28", "MUSICAL 56"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-056",
+    "name": "Worker 056",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker056",
+    "shows": ["MUSICAL 28", "MUSICAL 57"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-057",
+    "name": "Worker 057",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker057",
+    "shows": ["MUSICAL 29", "MUSICAL 58"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-058",
+    "name": "Worker 058",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker058",
+    "shows": ["MUSICAL 29", "MUSICAL 59"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-059",
+    "name": "Worker 059",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker059",
+    "shows": ["MUSICAL 30", "MUSICAL 60"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-060",
+    "name": "Worker 060",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker060",
+    "shows": ["MUSICAL 30", "MUSICAL 61"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  }
+  ,
+  {
+    "id": "worker-061",
+    "name": "Worker 061",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker061",
+    "shows": ["MUSICAL 31", "MUSICAL 62"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-062",
+    "name": "Worker 062",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker062",
+    "shows": ["MUSICAL 31", "MUSICAL 63"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-063",
+    "name": "Worker 063",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker063",
+    "shows": ["MUSICAL 32", "MUSICAL 64"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-064",
+    "name": "Worker 064",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker064",
+    "shows": ["MUSICAL 32", "MUSICAL 65"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-065",
+    "name": "Worker 065",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker065",
+    "shows": ["MUSICAL 33", "MUSICAL 66"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-066",
+    "name": "Worker 066",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker066",
+    "shows": ["MUSICAL 33", "MUSICAL 67"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-067",
+    "name": "Worker 067",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker067",
+    "shows": ["MUSICAL 34", "MUSICAL 68"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-068",
+    "name": "Worker 068",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker068",
+    "shows": ["MUSICAL 34", "MUSICAL 69"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-069",
+    "name": "Worker 069",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker069",
+    "shows": ["MUSICAL 35", "MUSICAL 70"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-070",
+    "name": "Worker 070",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker070",
+    "shows": ["MUSICAL 35", "MUSICAL 71"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  }
+  ,
+  {
+    "id": "worker-071",
+    "name": "Worker 071",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker071",
+    "shows": ["MUSICAL 36", "MUSICAL 72"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-072",
+    "name": "Worker 072",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker072",
+    "shows": ["MUSICAL 36", "MUSICAL 73"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-073",
+    "name": "Worker 073",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker073",
+    "shows": ["MUSICAL 37", "MUSICAL 74"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-074",
+    "name": "Worker 074",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker074",
+    "shows": ["MUSICAL 37", "MUSICAL 75"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-075",
+    "name": "Worker 075",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker075",
+    "shows": ["MUSICAL 38", "MUSICAL 76"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-076",
+    "name": "Worker 076",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker076",
+    "shows": ["MUSICAL 38", "MUSICAL 77"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-077",
+    "name": "Worker 077",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker077",
+    "shows": ["MUSICAL 39", "MUSICAL 78"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-078",
+    "name": "Worker 078",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker078",
+    "shows": ["MUSICAL 39", "MUSICAL 79"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-079",
+    "name": "Worker 079",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker079",
+    "shows": ["MUSICAL 40", "MUSICAL 80"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-080",
+    "name": "Worker 080",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker080",
+    "shows": ["MUSICAL 40", "MUSICAL 81"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  }
+  ,
+  {
+    "id": "worker-081",
+    "name": "Worker 081",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker081",
+    "shows": ["MUSICAL 41", "MUSICAL 82"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-082",
+    "name": "Worker 082",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker082",
+    "shows": ["MUSICAL 41", "MUSICAL 83"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-083",
+    "name": "Worker 083",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker083",
+    "shows": ["MUSICAL 42", "MUSICAL 84"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-084",
+    "name": "Worker 084",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker084",
+    "shows": ["MUSICAL 42", "MUSICAL 85"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-085",
+    "name": "Worker 085",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker085",
+    "shows": ["MUSICAL 43", "MUSICAL 86"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-086",
+    "name": "Worker 086",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker086",
+    "shows": ["MUSICAL 43", "MUSICAL 87"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-087",
+    "name": "Worker 087",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker087",
+    "shows": ["MUSICAL 44", "MUSICAL 88"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-088",
+    "name": "Worker 088",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker088",
+    "shows": ["MUSICAL 44", "MUSICAL 89"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-089",
+    "name": "Worker 089",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker089",
+    "shows": ["MUSICAL 45", "MUSICAL 90"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-090",
+    "name": "Worker 090",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker090",
+    "shows": ["MUSICAL 45", "MUSICAL 91"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  }
+  ,
+  {
+    "id": "worker-091",
+    "name": "Worker 091",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker091",
+    "shows": ["MUSICAL 46", "MUSICAL 92"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-092",
+    "name": "Worker 092",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker092",
+    "shows": ["MUSICAL 46", "MUSICAL 93"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-093",
+    "name": "Worker 093",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker093",
+    "shows": ["MUSICAL 47", "MUSICAL 94"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-094",
+    "name": "Worker 094",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker094",
+    "shows": ["MUSICAL 47", "MUSICAL 95"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-095",
+    "name": "Worker 095",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker095",
+    "shows": ["MUSICAL 48", "MUSICAL 96"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-096",
+    "name": "Worker 096",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker096",
+    "shows": ["MUSICAL 48", "MUSICAL 97"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-097",
+    "name": "Worker 097",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker097",
+    "shows": ["MUSICAL 49", "MUSICAL 98"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-098",
+    "name": "Worker 098",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker098",
+    "shows": ["MUSICAL 49", "MUSICAL 99"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-099",
+    "name": "Worker 099",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker099",
+    "shows": ["MUSICAL 50", "MUSICAL 100"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-100",
+    "name": "Worker 100",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker100",
+    "shows": ["MUSICAL 50", "MUSICAL 101"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-101",
+    "name": "Worker 101",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker101",
+    "shows": ["MUSICAL 51", "MUSICAL 102"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-102",
+    "name": "Worker 102",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker102",
+    "shows": ["MUSICAL 51", "MUSICAL 103"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-103",
+    "name": "Worker 103",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker103",
+    "shows": ["MUSICAL 52", "MUSICAL 104"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-104",
+    "name": "Worker 104",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker104",
+    "shows": ["MUSICAL 52", "MUSICAL 105"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-105",
+    "name": "Worker 105",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker105",
+    "shows": ["MUSICAL 53", "MUSICAL 106"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-106",
+    "name": "Worker 106",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker106",
+    "shows": ["MUSICAL 53", "MUSICAL 107"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-107",
+    "name": "Worker 107",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker107",
+    "shows": ["MUSICAL 54", "MUSICAL 108"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-108",
+    "name": "Worker 108",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker108",
+    "shows": ["MUSICAL 54", "MUSICAL 109"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-109",
+    "name": "Worker 109",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker109",
+    "shows": ["MUSICAL 55", "MUSICAL 110"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-110",
+    "name": "Worker 110",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker110",
+    "shows": ["MUSICAL 55", "MUSICAL 111"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-111",
+    "name": "Worker 111",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker111",
+    "shows": ["MUSICAL 56", "MUSICAL 112"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-112",
+    "name": "Worker 112",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker112",
+    "shows": ["MUSICAL 56", "MUSICAL 113"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-113",
+    "name": "Worker 113",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker113",
+    "shows": ["MUSICAL 57", "MUSICAL 114"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-114",
+    "name": "Worker 114",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker114",
+    "shows": ["MUSICAL 57", "MUSICAL 115"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-115",
+    "name": "Worker 115",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker115",
+    "shows": ["MUSICAL 58", "MUSICAL 116"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-116",
+    "name": "Worker 116",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker116",
+    "shows": ["MUSICAL 58", "MUSICAL 117"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-117",
+    "name": "Worker 117",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker117",
+    "shows": ["MUSICAL 59", "MUSICAL 118"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-118",
+    "name": "Worker 118",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker118",
+    "shows": ["MUSICAL 59", "MUSICAL 119"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-119",
+    "name": "Worker 119",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker119",
+    "shows": ["MUSICAL 60", "MUSICAL 120"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-120",
+    "name": "Worker 120",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker120",
+    "shows": ["MUSICAL 60", "MUSICAL 121"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-121",
+    "name": "Worker 121",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker121",
+    "shows": ["MUSICAL 61", "MUSICAL 122"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-122",
+    "name": "Worker 122",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker122",
+    "shows": ["MUSICAL 61", "MUSICAL 123"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-123",
+    "name": "Worker 123",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker123",
+    "shows": ["MUSICAL 62", "MUSICAL 124"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-124",
+    "name": "Worker 124",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker124",
+    "shows": ["MUSICAL 62", "MUSICAL 125"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-125",
+    "name": "Worker 125",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker125",
+    "shows": ["MUSICAL 63", "MUSICAL 126"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-126",
+    "name": "Worker 126",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker126",
+    "shows": ["MUSICAL 63", "MUSICAL 127"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-127",
+    "name": "Worker 127",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker127",
+    "shows": ["MUSICAL 64", "MUSICAL 128"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-128",
+    "name": "Worker 128",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker128",
+    "shows": ["MUSICAL 64", "MUSICAL 129"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-129",
+    "name": "Worker 129",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker129",
+    "shows": ["MUSICAL 65", "MUSICAL 130"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-130",
+    "name": "Worker 130",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker130",
+    "shows": ["MUSICAL 65", "MUSICAL 131"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-131",
+    "name": "Worker 131",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker131",
+    "shows": ["MUSICAL 66", "MUSICAL 132"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-132",
+    "name": "Worker 132",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker132",
+    "shows": ["MUSICAL 66", "MUSICAL 133"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-133",
+    "name": "Worker 133",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker133",
+    "shows": ["MUSICAL 67", "MUSICAL 134"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-134",
+    "name": "Worker 134",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker134",
+    "shows": ["MUSICAL 67", "MUSICAL 135"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-135",
+    "name": "Worker 135",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker135",
+    "shows": ["MUSICAL 68", "MUSICAL 136"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-136",
+    "name": "Worker 136",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker136",
+    "shows": ["MUSICAL 68", "MUSICAL 137"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-137",
+    "name": "Worker 137",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker137",
+    "shows": ["MUSICAL 69", "MUSICAL 138"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-138",
+    "name": "Worker 138",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker138",
+    "shows": ["MUSICAL 69", "MUSICAL 139"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-139",
+    "name": "Worker 139",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker139",
+    "shows": ["MUSICAL 70", "MUSICAL 140"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-140",
+    "name": "Worker 140",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker140",
+    "shows": ["MUSICAL 70", "MUSICAL 141"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-141",
+    "name": "Worker 141",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker141",
+    "shows": ["MUSICAL 71", "MUSICAL 142"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-142",
+    "name": "Worker 142",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker142",
+    "shows": ["MUSICAL 71", "MUSICAL 143"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-143",
+    "name": "Worker 143",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker143",
+    "shows": ["MUSICAL 72", "MUSICAL 144"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-144",
+    "name": "Worker 144",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker144",
+    "shows": ["MUSICAL 72", "MUSICAL 145"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-145",
+    "name": "Worker 145",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker145",
+    "shows": ["MUSICAL 73", "MUSICAL 146"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-146",
+    "name": "Worker 146",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker146",
+    "shows": ["MUSICAL 73", "MUSICAL 147"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-147",
+    "name": "Worker 147",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker147",
+    "shows": ["MUSICAL 74", "MUSICAL 148"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-148",
+    "name": "Worker 148",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker148",
+    "shows": ["MUSICAL 74", "MUSICAL 149"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-149",
+    "name": "Worker 149",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker149",
+    "shows": ["MUSICAL 75", "MUSICAL 150"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-150",
+    "name": "Worker 150",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker150",
+    "shows": ["MUSICAL 75", "MUSICAL 151"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-151",
+    "name": "Worker 151",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker151",
+    "shows": ["MUSICAL 76", "MUSICAL 152"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-152",
+    "name": "Worker 152",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker152",
+    "shows": ["MUSICAL 76", "MUSICAL 153"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-153",
+    "name": "Worker 153",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker153",
+    "shows": ["MUSICAL 77", "MUSICAL 154"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-154",
+    "name": "Worker 154",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker154",
+    "shows": ["MUSICAL 77", "MUSICAL 155"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-155",
+    "name": "Worker 155",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker155",
+    "shows": ["MUSICAL 78", "MUSICAL 156"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-156",
+    "name": "Worker 156",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker156",
+    "shows": ["MUSICAL 78", "MUSICAL 157"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-157",
+    "name": "Worker 157",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker157",
+    "shows": ["MUSICAL 79", "MUSICAL 158"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-158",
+    "name": "Worker 158",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker158",
+    "shows": ["MUSICAL 79", "MUSICAL 159"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-159",
+    "name": "Worker 159",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker159",
+    "shows": ["MUSICAL 80", "MUSICAL 160"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-160",
+    "name": "Worker 160",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker160",
+    "shows": ["MUSICAL 80", "MUSICAL 161"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-161",
+    "name": "Worker 161",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker161",
+    "shows": ["MUSICAL 81", "MUSICAL 162"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-162",
+    "name": "Worker 162",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker162",
+    "shows": ["MUSICAL 81", "MUSICAL 163"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-163",
+    "name": "Worker 163",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker163",
+    "shows": ["MUSICAL 82", "MUSICAL 164"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-164",
+    "name": "Worker 164",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker164",
+    "shows": ["MUSICAL 82", "MUSICAL 165"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-165",
+    "name": "Worker 165",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker165",
+    "shows": ["MUSICAL 83", "MUSICAL 166"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-166",
+    "name": "Worker 166",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker166",
+    "shows": ["MUSICAL 83", "MUSICAL 167"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-167",
+    "name": "Worker 167",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker167",
+    "shows": ["MUSICAL 84", "MUSICAL 168"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-168",
+    "name": "Worker 168",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker168",
+    "shows": ["MUSICAL 84", "MUSICAL 169"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-169",
+    "name": "Worker 169",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker169",
+    "shows": ["MUSICAL 85", "MUSICAL 170"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-170",
+    "name": "Worker 170",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker170",
+    "shows": ["MUSICAL 85", "MUSICAL 171"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-171",
+    "name": "Worker 171",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker171",
+    "shows": ["MUSICAL 86", "MUSICAL 172"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-172",
+    "name": "Worker 172",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker172",
+    "shows": ["MUSICAL 86", "MUSICAL 173"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-173",
+    "name": "Worker 173",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker173",
+    "shows": ["MUSICAL 87", "MUSICAL 174"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-174",
+    "name": "Worker 174",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker174",
+    "shows": ["MUSICAL 87", "MUSICAL 175"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-175",
+    "name": "Worker 175",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker175",
+    "shows": ["MUSICAL 88", "MUSICAL 176"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-176",
+    "name": "Worker 176",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker176",
+    "shows": ["MUSICAL 88", "MUSICAL 177"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-177",
+    "name": "Worker 177",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker177",
+    "shows": ["MUSICAL 89", "MUSICAL 178"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-178",
+    "name": "Worker 178",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker178",
+    "shows": ["MUSICAL 89", "MUSICAL 179"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-179",
+    "name": "Worker 179",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker179",
+    "shows": ["MUSICAL 90", "MUSICAL 180"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-180",
+    "name": "Worker 180",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker180",
+    "shows": ["MUSICAL 90", "MUSICAL 181"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-181",
+    "name": "Worker 181",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker181",
+    "shows": ["MUSICAL 91", "MUSICAL 182"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-182",
+    "name": "Worker 182",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker182",
+    "shows": ["MUSICAL 91", "MUSICAL 183"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-183",
+    "name": "Worker 183",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker183",
+    "shows": ["MUSICAL 92", "MUSICAL 184"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-184",
+    "name": "Worker 184",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker184",
+    "shows": ["MUSICAL 92", "MUSICAL 185"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-185",
+    "name": "Worker 185",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker185",
+    "shows": ["MUSICAL 93", "MUSICAL 186"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-186",
+    "name": "Worker 186",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker186",
+    "shows": ["MUSICAL 93", "MUSICAL 187"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-187",
+    "name": "Worker 187",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker187",
+    "shows": ["MUSICAL 94", "MUSICAL 188"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-188",
+    "name": "Worker 188",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker188",
+    "shows": ["MUSICAL 94", "MUSICAL 189"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-189",
+    "name": "Worker 189",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker189",
+    "shows": ["MUSICAL 95", "MUSICAL 190"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-190",
+    "name": "Worker 190",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker190",
+    "shows": ["MUSICAL 95", "MUSICAL 191"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-191",
+    "name": "Worker 191",
+    "department": "Scenic Art",
+    "bio": "Placeholder scenic artist contributing to the production.",
+    "instagram": "@worker191",
+    "shows": ["MUSICAL 96", "MUSICAL 192"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-192",
+    "name": "Worker 192",
+    "department": "Lighting Design",
+    "bio": "Placeholder lighting designer contributing to the production.",
+    "instagram": "@worker192",
+    "shows": ["MUSICAL 96", "MUSICAL 193"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-193",
+    "name": "Worker 193",
+    "department": "Sound Engineering",
+    "bio": "Placeholder sound engineer contributing to the production.",
+    "instagram": "@worker193",
+    "shows": ["MUSICAL 97", "MUSICAL 194"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-194",
+    "name": "Worker 194",
+    "department": "Costume Design",
+    "bio": "Placeholder costume designer contributing to the production.",
+    "instagram": "@worker194",
+    "shows": ["MUSICAL 97", "MUSICAL 195"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-195",
+    "name": "Worker 195",
+    "department": "Stage Management",
+    "bio": "Placeholder stage manager contributing to the production.",
+    "instagram": "@worker195",
+    "shows": ["MUSICAL 98", "MUSICAL 196"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-196",
+    "name": "Worker 196",
+    "department": "Props",
+    "bio": "Placeholder props artisan contributing to the production.",
+    "instagram": "@worker196",
+    "shows": ["MUSICAL 98", "MUSICAL 197"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-197",
+    "name": "Worker 197",
+    "department": "Video Design",
+    "bio": "Placeholder video designer contributing to the production.",
+    "instagram": "@worker197",
+    "shows": ["MUSICAL 99", "MUSICAL 198"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-198",
+    "name": "Worker 198",
+    "department": "Choreography",
+    "bio": "Placeholder choreographer contributing to the production.",
+    "instagram": "@worker198",
+    "shows": ["MUSICAL 99", "MUSICAL 199"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-199",
+    "name": "Worker 199",
+    "department": "Automation",
+    "bio": "Placeholder automation technician contributing to the production.",
+    "instagram": "@worker199",
+    "shows": ["MUSICAL 100", "MUSICAL 200"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  },
+  {
+    "id": "worker-200",
+    "name": "Worker 200",
+    "department": "Hair & Wigs",
+    "bio": "Placeholder hair and wigs artist contributing to the production.",
+    "instagram": "@worker200",
+    "shows": ["MUSICAL 100", "MUSICAL 201"],
+    "photo": "data/pictures/person.png",
+    "icon": "data/icons/icon.svg"
+  }
+]
+
