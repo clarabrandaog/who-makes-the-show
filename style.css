@@ -54,21 +54,82 @@ body {
   position: fixed;
   top: 40px;
   left: 48px;
-  z-index: 2;
+  z-index: 3;
   max-width: 420px;
 }
 
-.page-title {
-  margin: 0;
-  font-size: clamp(2.2rem, 3.5vw, 3.25rem);
-  font-weight: 800;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: #111827;
-  padding: 16px 20px;
+.page-title-card {
+  padding: 16px 20px 24px;
   border-radius: 24px;
   background: rgba(241, 245, 249, 0.95);
   box-shadow: 0 18px 45px rgba(15, 23, 42, 0.45);
+  text-shadow: 0 10px 30px rgba(15, 23, 42, 0.6);
+}
+
+.page-title {
+  margin: 0 0 6px;
+  font-size: clamp(3rem, 3.5vw, 5rem);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #111827;
+}
+
+.page-subtitle {
+  margin: 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #6b7280;
+}
+
+.fact-banner {
+  position: fixed;
+  bottom: 40px;
+  right: 48px;
+  z-index: 3;
+}
+
+.fact-card {
+  max-width: 420px;
+  padding: 14px 20px 16px;
+  border-radius: 24px;
+  background: rgba(241, 245, 249, 0.96);
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.45);
+  color: #111827;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.fact-label {
+  margin: 0;
+  font-size: 1rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #6b7280;
+}
+
+.fact-text {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  min-height: 2.6em;
+  transform-origin: top left;
+  opacity: 0;
+  transform: translateY(6px);
+}
+
+.fact-text.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 360ms ease-out, transform 360ms ease-out;
+}
+
+.fact-text.is-leaving {
+  opacity: 0;
+  transform: translateY(-6px);
+  transition: opacity 260ms ease-out, transform 260ms ease-out;
 }
 
 .stage {
@@ -156,7 +217,7 @@ body {
 }
 
 .bubble.size-large {
-  width: 160px;
+  width: 180px;
 }
 
 .bubble.size-medium {
@@ -231,13 +292,15 @@ body {
   top: 50%;
   left: 50%;
   width: min(420px, calc(100% - 48px));
+  min-width: 600px;
   max-height: 80vh;
+  height: fit-content;
   background: #1f2937;
   color: #f9fafb;
   border-radius: 24px;
   padding: 24px 24px 22px;
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: flex;
+  flex-flow: row;
   gap: 18px 20px;
   box-shadow: 0 28px 80px rgba(0, 0, 0, 0.85);
   opacity: 0;
@@ -266,7 +329,7 @@ body {
   border: none;
   background: rgba(15, 23, 42, 0.85);
   color: #e5e7eb;
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 1;
   cursor: pointer;
   display: flex;
@@ -291,10 +354,10 @@ body {
 
 .highlight-photo-wrapper {
   position: relative;
-  width: 92px;
-  height: 92px;
+  width: 160px;
+  height: 160px;
   border-radius: 999px;
-  border: 3px solid rgba(15, 23, 42, 1);
+  border: 3px solid #ffffff;
   overflow: visible;
   background: #e5e7eb;
 }
@@ -336,15 +399,15 @@ body {
 
 .highlight-name {
   margin: 0;
-  font-size: 1.05rem;
-  line-height: 1.25;
+  font-size: 2rem;
+  line-height: 1.5;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
 
 .highlight-department {
   margin: 0;
-  font-size: 0.78rem;
+  font-size: 1.2rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #9ca3af;
@@ -352,22 +415,29 @@ body {
 
 .highlight-bio {
   margin: 10px 0 0;
-  font-size: 0.86rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   color: #e5e7eb;
 }
 
 .highlight-instagram {
   margin: 8px 0 0;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #9ca3af;
 }
 
 .highlight-worked-on {
-  margin: 14px 0 0;
-  font-size: 0.8rem;
+  margin: 24px 0 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #9ca3af;}
+
+.highlight-worked-musicals {
+  margin: 0;
+  font-size: 2rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #d1d5db;

@@ -4,6 +4,8 @@ const DATA_URL = "data/workers.json";
 const HIGHLIGHT_INTERVAL_MS = 18_000;
 const HIGHLIGHT_VISIBLE_MS = 8_000;
 const BUBBLE_SIZES = ["large", "medium", "small"];
+const FACTS_URL = "data/fact.json";
+const FACT_ROTATION_MS = 20_000;
 
 // --- State -----------------------------------------------------------------
 
@@ -13,6 +15,9 @@ let highlightQueue = [];
 let highlightIntervalId = null;
 let hideTimeoutId = null;
 let lastHighlightedId = null;
+let facts = [];
+let currentFactIndex = 0;
+let factIntervalId = null;
 
 // --- Utility: seeded pseudo-random from worker id -------------------------
 
@@ -45,6 +50,25 @@ async function loadWorkers() {
   }
   const data = await response.json();
   return Array.isArray(data) ? data : [];
+}
+
+async function loadFacts() {
+  try {
+    const response = await fetch(FACTS_URL, { cache: "no-cache" });
+    if (!response.ok) {
+      throw new Error(`Failed to load facts JSON: ${response.status}`);
+    }
+    const data = await response.json();
+    if (!Array.isArray(data)) return [];
+    return data
+      .map((item) =>
+        typeof item === "string" ? { text: item } : { text: String(item.text || "") }
+      )
+      .filter((item) => item.text.trim().length > 0);
+  } catch (error) {
+    console.error(error);
+    return [];
+  }
 }
 
 // --- Bubble creation & layout ---------------------------------------------
@@ -160,6 +184,47 @@ const highlightDepartmentEl = document.getElementById("highlight-department");
 const highlightBioEl = document.getElementById("highlight-bio");
 const highlightInstagramEl = document.getElementById("highlight-instagram");
 const highlightShowsEl = document.getElementById("highlight-shows");
+
+const factTextEl = document.getElementById("fact-text");
+
+function startFactRotation() {
+  if (!factTextEl || !facts.length) return;
+
+  const showNextFact = () => {
+    const fact = facts[currentFactIndex];
+
+    // Animate current text out, then swap, then animate in
+    factTextEl.classList.remove("is-visible");
+    factTextEl.classList.add("is-leaving");
+
+    const leaveDuration = 260;
+
+    window.setTimeout(() => {
+      factTextEl.textContent = fact.text;
+      factTextEl.classList.remove("is-leaving");
+
+      // Force a reflow so the browser picks up the new start state
+      // before applying the entering transition.
+      // eslint-disable-next-line no-unused-expressions
+      factTextEl.offsetHeight;
+
+      factTextEl.classList.add("is-visible");
+    }, leaveDuration);
+
+    currentFactIndex = (currentFactIndex + 1) % facts.length;
+  };
+
+  // Initial show without leave animation
+  const initialFact = facts[currentFactIndex];
+  factTextEl.textContent = initialFact.text;
+  currentFactIndex = (currentFactIndex + 1) % facts.length;
+  factTextEl.classList.add("is-visible");
+
+  if (factIntervalId !== null) {
+    clearInterval(factIntervalId);
+  }
+  factIntervalId = window.setInterval(showNextFact, FACT_ROTATION_MS);
+}
 
 function openHighlightOverlay() {
   highlightOverlayEl.classList.add("visible");
@@ -309,12 +374,14 @@ function restartHighlightCycleFrom(currentId) {
 async function init() {
   try {
     workers = await loadWorkers();
+    facts = await loadFacts();
     if (!workers.length) return;
 
     renderBubbles(workers);
     buildHighlightQueue();
     wireHighlightDismiss();
     startHighlightCycle();
+    startFactRotation();
   } catch (error) {
     console.error(error);
   }
