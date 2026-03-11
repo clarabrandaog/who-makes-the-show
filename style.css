@@ -227,7 +227,6 @@ body {
   width: 58%;
   height: 58%;
   object-fit: contain;
-  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.5));
 }
 
 .bubble.size-large {
