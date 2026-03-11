@@ -81,7 +81,7 @@ body {
 
 .page-title {
   margin: 0 0 6px;
-  font-size: clamp(3rem, 3.5vw, 5rem);
+  font-size: clamp(2.5rem, 3.5vw, 4rem);
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -117,7 +117,7 @@ body {
 
 .fact-label {
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.6rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: #6b7280;
@@ -125,7 +125,7 @@ body {
 
 .fact-text {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.5;
   min-height: 2.6em;
   transform-origin: top left;
@@ -422,7 +422,7 @@ body {
 
 .highlight-name {
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -430,7 +430,7 @@ body {
 
 .highlight-department {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #9ca3af;
@@ -438,14 +438,14 @@ body {
 
 .highlight-bio {
   margin: 10px 0 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   color: #e5e7eb;
 }
 
 .highlight-instagram {
   margin: 8px 0 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #9ca3af;
@@ -453,14 +453,14 @@ body {
 
 .highlight-worked-on {
   margin: 24px 0 0;
-  font-size: 1.1rem;
+  font-size: 1rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #9ca3af;}
 
 .highlight-worked-musicals {
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.2rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #d1d5db;
